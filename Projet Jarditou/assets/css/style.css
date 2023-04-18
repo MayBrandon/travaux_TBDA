@@ -20,12 +20,6 @@ a {
     color: white;
 }
 
-/* TABLEAU */
-
-.tableau {
-    
-}
-
 aside{
     background-color: lightgrey;
     float: right;
@@ -36,7 +30,6 @@ aside{
 footer {
     display: block;
 }
-
 
 /* FOOTER */
 
@@ -66,10 +59,5 @@ hr {
     aside {
         visibility: hidden;
         height: 0;
-
     }    
-
-    table {
-        
-    }
 }  
