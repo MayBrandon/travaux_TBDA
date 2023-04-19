@@ -1,5 +1,5 @@
 html {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .banniere-promo {
@@ -20,16 +20,20 @@ a {
     color: white;
 }
 
+.main {
+    width: calc(100% - 342px);
+    float: left;
+}
+
 aside{
     background-color: lightgrey;
     float: right;
-    width: 250px;
-    height: 78rem;
+    width: 342px;
+    height: 78rem ;
 }
 
 footer {
-    display: block;
-}
+    clear: both;}
 
 /* FOOTER */
 
