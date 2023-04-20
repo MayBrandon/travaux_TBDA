@@ -79,6 +79,7 @@ hr {
     opacity: .1;
 }
 
+
 @media screen and (max-width: 768px) { 
     html {
         font-size: 0.750rem;
@@ -111,6 +112,10 @@ hr {
         text-align: center;
     }
 
+    .slogan {
+        font-weight: 700;
+    }
+
     .bg-footer {
         display: flex;
         text-align: center;
@@ -139,6 +144,8 @@ hr {
     }
 
     .bg-menu {
+        display: flex;
+        flex-direction: column;
         text-align: center;
         font-size: 15px;
         line-height: 22px;
@@ -167,6 +174,8 @@ hr {
     }   
 
     .bg-footer{
+        display: flex;
+        flex-direction: column;
         text-align: center;
         font-size: 15px;
         line-height: 22px;
