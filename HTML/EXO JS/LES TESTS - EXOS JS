@@ -1,0 +1,107 @@
+exo 1
+
+variable nombre
+
+debut
+   ecrire  "Donnez un nombre"
+   lire : nombre
+   si =>0
+   ecrire: nombre positif
+   sinon
+   ecrire: le nombre negatif
+fin
+
+//--------------------------------//
+
+exo 2
+
+variable nombre1
+variable nombre2 
+
+debut 
+    ecrire "Veuillez entrer deux nombres: "
+        si (nombre1 > 0 et nombre2 > 0) ou (nombre1 < 0 et nombre2 < 0)
+            ecrire : vos produits sont positif
+        sinon
+            ecrire : vos produits sont negatif
+        finsi
+    fin
+
+//--------------------------------//
+
+exo 3 
+
+variable brandon, junior, pierrot
+
+debut 
+    ecrire: "donnez 3 noms"
+    lire: brandon, junior, pierrot 
+        si b < j < p 
+        ecrire: ces noms sont ranger dans l'ordre alphabetique
+        sinon 
+        ecrire: ces noms ne sont pas ranger dans l'ordre alphabetique
+        finsi
+    fin
+
+    //--------------------------------//
+
+exo 4 
+
+variable nombre 
+
+debut 
+    ecrire: "donnez un nombre"
+    lire: nombre
+        si nombre < 0
+            ecrire: ce nombre est negatif
+        sinon si > 0 
+            ecrire: ce nombre est positif
+        sinon 
+            ecrire: ce nombre est null
+        finsi
+    fin
+
+    //--------------------------------//
+
+exo 5
+
+variable nombre1, nombre2
+
+debut
+    ecrire: "Donnez 2 nombres"
+    lire: nombre1, nombre2
+        si nombre1 = 0 ou nombre2 = 0
+            ecrire: ce nombre est null
+        sinon si (nombre1 > 0 et nombre2 > 0) ou (nombre1 < 0 et nombre2 < 0)
+            ecrire: ce nombre est positif
+        sinon
+            ecrire: ce nombre est positif
+        fin si
+    fin
+
+    //--------------------------------//
+
+exo 6 
+
+variable age
+
+debut   
+    ecrire: "Quel age avez vous?"
+    lire age 
+        si age 6 a 7
+            ecrire: "poussin"
+        sinon si age 8 a 9
+            ecrire pupille
+        sinon si age 10 a 11
+            ecrire minime
+        sinon > 12
+            ecrire cadet
+        fin si
+    fin
+
+Peut-on concevoir plusieurs algorithmes équivalents menant à ce résultat ? OUI
+
+
+
+
+        

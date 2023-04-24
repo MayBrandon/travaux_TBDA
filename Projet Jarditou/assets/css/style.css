@@ -27,6 +27,7 @@ a {
 a:hover {
     color: green;
     transition: .3s;
+    
 }
 
 
@@ -42,11 +43,13 @@ a:hover {
     margin-left: 12px;
 }
 
+
 aside{
     background-color: lightgrey;
     float: right;
     width: 342px;
     height: 37rem;
+    
 }
 
 ul {
