@@ -1,16 +1,36 @@
 *{
     font-family: 'Ubuntu', sans-serif;
 }
+
+body {
+    margin: 18px;
+}
+
+/* -------------------------------------------------- */
+.logo {
+    display: flex;
+    width: 450px;
+}
+
+.slogan {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.250rem;
+    margin: 0;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+
+}
+
 .banniere-promo {
     width: 100%;
     margin-top: 10px;
 }
 
-.logo {
-    width: 450px;
-}
-
-/* MENU DU HAUT */
+/* --------------------------- NAVBAR -------------------------*/
 
 .bg-menu {
     background-color: black;
@@ -26,30 +46,25 @@ a {
 
 a:hover {
     color: green;
-    transition: .3s;
-    
+    transition: .3s; 
 }
 
-
+/* ----------------------------- MAIN BODY ------------------------------- */
 
 .main {
     width: calc(100% - 342px);
     float: left;
 }
 
-/* BODY  */
-
-.h2-aside {
-    margin-left: 12px;
-}
-
-
 aside{
     background-color: lightgrey;
     float: right;
     width: 342px;
     height: 37rem;
-    
+}
+
+.h2-aside {
+    margin-left: 12px;
 }
 
 ul {
@@ -66,11 +81,11 @@ ul {
     line-height: 35px;
 }
 
+/* --------------------- PIED DE PAGE ---------------------------*/
 
 footer {
-    clear: both;}
-
-/* MENU DU BAS FOOTER */
+    clear: both;
+}
 
 .bg-footer {
     background-color: rgb(0, 0, 0);
@@ -81,7 +96,6 @@ hr {
     height: .5;
     opacity: .1;
 }
-
 
 @media screen and (max-width: 1024px) and (max-height: 768px) {
     html {
