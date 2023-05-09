@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="/Projet Jarditou/assets/img/papillon.jpg">
+    </header>
+
+    <section>
+     <p id ="nombre"></p>
+    </section>
+
+    <footer>
+        <p id="multi"></p>
+    </footer>
+    <script>
+        let nombre = prompt('Entrez un nombre') //x
+        let multi = prompt('Entrez un nombre') //y
+
+        result = Number(nombre) * Number(nombre) * Number(nombre);
+        result2 = Number(nombre) * Number(multi);
+
+        document.getElementById('nombre').innerHTML = ('le nomre de ' + nombre + ' est egal a : ' + result)
+        document.getElementById('multi').innerHTML = ('le produit de ' + nombre + ' x ' + multi + ' est egale a : ' + result2);
+        
+        function produit(nombre, multi) {
+            
+        }
+        function afficheImg(img){
+            let imagejavascript = document.createElement('img')
+            imagejavascript.src = '/Projet Jarditou/assets/img/papillon.jpg';
+            document.body.appendChild(imagejavascript);
+        }
+    </script>
+</body>
+</html>
