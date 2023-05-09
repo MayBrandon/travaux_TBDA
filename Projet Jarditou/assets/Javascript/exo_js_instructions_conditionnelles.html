@@ -8,21 +8,57 @@
 </head>
 <body>
     <script>
-        //exo b 
+        // exo a 
+
+        let nombre1
+
+        nombre = prompt('Veuillez entrer un nombre')
+
+        result = nombre1%2
+
+        if (result) {
+            console.log('nombre impair')
+
+        } else if (result === 0) {
+            console.log('nombre pair')
+        }
+
+
+          //exo b 
         
         let anneeNaissance = prompt('Veuillez entrer votre date de naissance');
-        let annee = 2023;
-        let age = 2005 - 2023;
-        let majeur = 18; 
+        let adult = Number < 2005;
+        let mineur = Number > 2006;
+        
+        if ((adult = 2023 - Number(anneeNaissance)) > 18) {
+            alert('vous etes majeur, vous avez ' + adult + ' ans')
+        }
+        else if ((mineur = 2023 - Number(anneeNaissance)) < 18) {
+            alert('vous etes mineur, vous avez ' + mineur + ' ans')
+        } else {
+            alert('vous avez pile 18 ans')
+        }
 
+        
 
-        if (Number(anneeNaissance <= age)){
-            alert('Vous etes majeur! Vous avez '+ age)
-        } else if (age >= Number(anneeNaissance)) {
-            alert('vous etes mineur!')
-        } 
-        //PAS FINI A TERMINER
+        // exo c 
 
+        let nombre = parseFloat(prompt('Veuillez entrer un nombre'))
+        let operator = prompt('Veuillez choisir: +, -, *, /')
+        let nombre2 = parseFloat(prompt('veuillez etrer un nombre'))
+            
+
+        if (operator == '+') {
+            alert(nombre+nombre2)
+        } else if (operator == '-') {
+            alert(nombre-nombre2)
+        } else if (operator == '*') {
+            alert(nombre*nombre2)
+        } else if (operator == '/') {
+            alert(nombre/nombre2)
+        } else {
+            alert('Saisie erreur')
+        }
     </script>
 </body>
 </html>
