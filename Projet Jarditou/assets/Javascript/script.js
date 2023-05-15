@@ -123,3 +123,16 @@
 
 //exo
 
+var somme = 0;
+
+        function Somme(n) {
+            for (var i = 1; i <= n; i++) {
+                somme += i
+            }
+            console.log("somme " + somme)
+        }
+        Somme(100)
+
+
+var produit 
+var x 
