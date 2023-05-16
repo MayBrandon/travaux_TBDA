@@ -12,5 +12,5 @@ function multiplication(){
         multi++;
     } while (multi <= 10);
 }
-
+j
 multiplication()
