@@ -12,7 +12,7 @@ if (TOT > 100 && TOT < 200) {
 } else if (TOT > 200) {
     REM = (10 * TOT) / 100;
     document.write("Vous avez une remise de " + REM + "€<br>");
-}
+} 
 
 if ((TOT - REM) <= 500) {
 
